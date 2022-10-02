@@ -1,0 +1,6 @@
+github "rosberry/CollectionViewTools" 
+github "onevcat/Kingfisher" ~> 7.0
+github "Alamofire/Alamofire"
+github "rosberry/Texstyle"
+github "squimer/DatePickerDialog-iOS-Swift"
+github "rosberry/Framezilla"

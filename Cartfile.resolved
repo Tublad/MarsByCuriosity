@@ -1,0 +1,7 @@
+github "Alamofire/Alamofire" "5.6.2"
+github "onevcat/Kingfisher" "7.3.2"
+github "onmyway133/DeepDiff" "2.3.3"
+github "rosberry/CollectionViewTools" "0.1.7"
+github "rosberry/Framezilla" "5.1.2"
+github "rosberry/Texstyle" "0.5"
+github "squimer/DatePickerDialog-iOS-Swift" "4.0"
