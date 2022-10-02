@@ -66,7 +66,7 @@ class DescriptionView: UIView {
         }
 
         titleLabel.configureFrame { maker in
-            maker.sizeToFit().left(inset: 16).centerY(to: actionButton.nui_centerY)
+            maker.left(inset: 16).centerY(to: actionButton.nui_centerY).right(to: actionButton.nui_left, inset: 4).heightToFit()
         }
     }
 
