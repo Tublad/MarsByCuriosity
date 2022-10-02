@@ -1,0 +1,43 @@
+/* 
+  Localizable.strings
+  MarsByCuriosity
+
+  Created by Evgeny Schwarzkopf on 28/9/22.
+*/
+
+"main.title" = "Select Camera and Date";
+"main.rover_camera_title" = "Rover Camera";
+"main.date_title" = "Date";
+"main.button_explore_title" = "Explore";
+"main.button_retry_title" = "Retry";
+
+"picker.title" = "Choose Date";
+"picker.apply_title" = "Apply";
+"picker.cancel_title" = "Cancel";
+"picker.locale" = "en_EN";
+"picker.date_formate" = "d MMM, yyyy";
+"fetch_date_formate" = "yyyy-M-dd";
+
+"camera.fhaz" = "Front Hazard Avoidance Camera";
+"camera.rhaz" = "Rear Hazard Avoidance Camera";
+"camera.mast" = "Mast Camera";
+"camera.chemcam" = "Chemistry and Camera Complex";
+"camera.mahli" = "Mars Hand Lens Imager";
+"camera.mardi" = "Mars Descent Imager";
+"camera.navcam" = "Navigation Camera";
+"camera.pancam" = "Panoramic Camera";
+"camera.minites" = "Miniature Thermal Emission Spectrometer";
+
+"preview.title" = "Photo ID";
+
+"error.not_found.title" = "Found nothing";
+"error.not_found.description" = "Try to change the keyword and try again";
+"error.no_internet_connection.title" = "No Connection";
+"error.no_internet_connection.description" = "Check the connection and try again";
+"error.something_went_wrong.title" = "Woah!";
+"error.something_went_wrong.description" = "Something somehow went wrong.\n We’re already working on that";
+
+"link" = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=%@&camera=%@&api_key=%@";
+"new_line" = "\n";
+"system_image_name.gobackward" = "gobackward";
+
