@@ -80,6 +80,15 @@ final class PreviewViewController: TitleViewController {
         output.viewDidAppear()
     }
 
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        if #available(iOS 13.0, *) {
+            return .lightContent
+        }
+        else {
+            return .lightContent
+        }
+    }
+
     // MARK: - Layout
 
     override func viewDidLayoutSubviews() {

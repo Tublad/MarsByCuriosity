@@ -124,6 +124,15 @@ final class MainViewController: TitleViewController {
         output.viewDidAppear()
     }
 
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        if #available(iOS 13.0, *) {
+            return .darkContent
+        }
+        else {
+            return .default
+        }
+    }
+
     // MARK: - Layout
 
     override func viewDidLayoutSubviews() {
