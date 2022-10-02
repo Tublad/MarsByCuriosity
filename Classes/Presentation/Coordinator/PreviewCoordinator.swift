@@ -7,9 +7,9 @@
 
 import UIKit
 
-final class PreviewCoordinator: Coordinator<UINavigationController> {
+final class PreviewCoordinator: Coordinator<NavigationController> {
 
-    override init(rootViewController: UINavigationController) {
+    override init(rootViewController: NavigationController) {
         super.init(rootViewController: rootViewController)
     }
 

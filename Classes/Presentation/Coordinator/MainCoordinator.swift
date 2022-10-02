@@ -8,8 +8,8 @@
 import UIKit
 import DatePickerDialog
 
-final class MainCoordinator: Coordinator<UINavigationController> {
-    override init(rootViewController: UINavigationController) {
+final class MainCoordinator: Coordinator<NavigationController> {
+    override init(rootViewController: NavigationController) {
         super.init(rootViewController: rootViewController)
     }
 

@@ -7,12 +7,12 @@
 
 import UIKit
 
-final class AppCoordinator: Coordinator<UINavigationController> {
+final class AppCoordinator: Coordinator<NavigationController> {
     private var window: UIWindow
 
     init(window: UIWindow) {
         self.window = window
-        let navigationController = UINavigationController()
+        let navigationController = NavigationController()
         super.init(rootViewController: navigationController)
     }
 

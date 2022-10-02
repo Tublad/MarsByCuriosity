@@ -7,8 +7,8 @@
 
 import UIKit
 
-final class GalleryCoordinator: Coordinator<UINavigationController> {
-    override init(rootViewController: UINavigationController) {
+final class GalleryCoordinator: Coordinator<NavigationController> {
+    override init(rootViewController: NavigationController) {
         super.init(rootViewController: rootViewController)
     }
 
