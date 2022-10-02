@@ -30,6 +30,20 @@ class TitleViewController: UIViewController {
                                                          target: self,
                                                          action: #selector(backButtonPressed))
 
+    // MARK: - Layout
+
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.navigationBar.shadowImage = .init()
+        navigationController?.navigationBar.setBackgroundImage(.init(), for: .default)
+        super.viewWillAppear(animated)
+    }
+
+    override func viewWillDisappear(_ animated: Bool) {
+        navigationController?.navigationBar.shadowImage = nil
+        navigationController?.navigationBar.setBackgroundImage(nil, for: .default)
+        super.viewWillDisappear(animated)
+    }
+
     func updateTitleView(title: String, subtitle: String? = nil, type: TitleColor) {
         switch type {
         case .dark:

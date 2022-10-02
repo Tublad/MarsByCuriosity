@@ -68,18 +68,6 @@ final class GalleryViewController: TitleViewController {
         super.viewDidAppear(animated)
         output.viewDidAppear()
     }
-
-    override func viewWillAppear(_ animated: Bool) {
-        navigationController?.navigationBar.shadowImage = .init()
-        navigationController?.navigationBar.setBackgroundImage(.init(), for: .default)
-        super.viewWillAppear(animated)
-    }
-
-    override func viewWillDisappear(_ animated: Bool) {
-        navigationController?.navigationBar.shadowImage = nil
-        navigationController?.navigationBar.setBackgroundImage(nil, for: .default)
-        super.viewWillDisappear(animated)
-    }
     
     // MARK: - Layout
 
